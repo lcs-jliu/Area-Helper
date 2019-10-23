@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4262A0562360E7BC00F41826 /* RectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262A0552360E7BC00F41826 /* RectangleViewController.swift */; };
+		4262A0582360E8BA00F41826 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262A0572360E8BA00F41826 /* CircleViewController.swift */; };
+		4262A05A2360E8DA00F41826 /* ParallelogramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262A0592360E8DA00F41826 /* ParallelogramViewController.swift */; };
 		42CA85122357E85800FFF332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA85112357E85800FFF332 /* AppDelegate.swift */; };
-		42CA85142357E85800FFF332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA85132357E85800FFF332 /* ViewController.swift */; };
+		42CA85142357E85800FFF332 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA85132357E85800FFF332 /* MainViewController.swift */; };
 		42CA85172357E85800FFF332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CA85152357E85800FFF332 /* Main.storyboard */; };
 		42CA85192357E85B00FFF332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CA85182357E85B00FFF332 /* Assets.xcassets */; };
 		42CA851C2357E85B00FFF332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CA851A2357E85B00FFF332 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4262A0552360E7BC00F41826 /* RectangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleViewController.swift; sourceTree = "<group>"; };
+		4262A0572360E8BA00F41826 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		4262A0592360E8DA00F41826 /* ParallelogramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelogramViewController.swift; sourceTree = "<group>"; };
 		42CA850E2357E85800FFF332 /* Area Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Area Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CA85112357E85800FFF332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42CA85132357E85800FFF332 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42CA85132357E85800FFF332 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		42CA85162357E85800FFF332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42CA85182357E85B00FFF332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42CA851B2357E85B00FFF332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				42CA85112357E85800FFF332 /* AppDelegate.swift */,
-				42CA85132357E85800FFF332 /* ViewController.swift */,
+				42CA85132357E85800FFF332 /* MainViewController.swift */,
+				4262A0552360E7BC00F41826 /* RectangleViewController.swift */,
+				4262A0572360E8BA00F41826 /* CircleViewController.swift */,
+				4262A0592360E8DA00F41826 /* ParallelogramViewController.swift */,
 				42CA85152357E85800FFF332 /* Main.storyboard */,
 				42CA85182357E85B00FFF332 /* Assets.xcassets */,
 				42CA851A2357E85B00FFF332 /* LaunchScreen.storyboard */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CA85142357E85800FFF332 /* ViewController.swift in Sources */,
+				42CA85142357E85800FFF332 /* MainViewController.swift in Sources */,
+				4262A0562360E7BC00F41826 /* RectangleViewController.swift in Sources */,
+				4262A05A2360E8DA00F41826 /* ParallelogramViewController.swift in Sources */,
+				4262A0582360E8BA00F41826 /* CircleViewController.swift in Sources */,
 				42CA85122357E85800FFF332 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
