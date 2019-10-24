@@ -39,11 +39,10 @@ class RectangleViewController: UIViewController {
         }
         
         let area = lengthNumber * widthNumber
-        print(area)
-        //result.text = print("The area is", area)
+        let stringArea = String(area)
+        result.text = stringArea
+    
     }
-    
-    
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
