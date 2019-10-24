@@ -31,7 +31,7 @@ class RectangleViewController: UIViewController {
             return
         }
         guard let lengthNumber = Double(length) else { return
-            result.text = "Please enter a number for width"
+            result.text = "Please enter a number for length"
         }
         
         guard let widthNumber = Double(width) else { return
