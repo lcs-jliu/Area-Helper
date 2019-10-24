@@ -10,10 +10,28 @@ import UIKit
 
 class CircleViewController: UIViewController {
     
+    @IBOutlet weak var radiusInput: UITextField!
+    @IBOutlet weak var result: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func areaOfCircle(_ sender: Any) {
+        guard let radius = radiusInput.text else {
+            result.text = "Please enter a value for radius"
+            return
+        }
+        guard let radiusNumber = Double(radius) else { return
+            result.text = "Please enter a number for radius"
+        }
+        
+        let area = pow(radiusNumber, 2) * Double.pi
+        let stringArea = String(area)
+        result.text = stringArea
+    }
+    
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
