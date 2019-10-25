@@ -20,7 +20,6 @@ class CircleViewController: UIViewController {
     
     @IBAction func areaOfCircle(_ sender: Any) {
         guard let radius = radiusInput.text else {
-            result.text = "Please enter a value for radius"
             return
         }
         guard let radiusNumber = Double(radius) else { return
@@ -29,7 +28,13 @@ class CircleViewController: UIViewController {
         
         let area = pow(radiusNumber, 2) * Double.pi
         let stringArea = String(area)
-        result.text = "The area is:\(stringArea)"
+        let message = """
+        The area of the Cicle is:
+        \(stringArea)
+        Square Units
+        """
+        
+        result.text = message
     }
     
     

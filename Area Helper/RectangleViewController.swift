@@ -23,11 +23,9 @@ class RectangleViewController: UIViewController {
     
     @IBAction func areaOfRectangle(_ sender: Any) {
         guard let length = lengthInput.text else {
-            result.text = "Please enter a value for length"
             return
         }
         guard let width = widthInput.text else {
-            result.text = "Please enter a value for width"
             return
         }
         guard let lengthNumber = Double(length) else { return
@@ -40,7 +38,12 @@ class RectangleViewController: UIViewController {
         
         let area = lengthNumber * widthNumber
         let stringArea = String(area)
-        result.text = "The area is:\(stringArea)"
+        let message = """
+        The area of the Rectangle is:
+        \(stringArea)
+        Square Units
+        """
+        result.text = message
     
     }
     
