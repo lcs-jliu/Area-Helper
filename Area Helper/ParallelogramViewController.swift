@@ -38,7 +38,7 @@ class ParallelogramViewController: UIViewController {
         
         let area = baseNumber * heightNumber
         let stringArea = String(area)
-        result.text = stringArea
+        result.text = "The area is:\(stringArea)"
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

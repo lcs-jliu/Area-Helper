@@ -29,7 +29,7 @@ class CircleViewController: UIViewController {
         
         let area = pow(radiusNumber, 2) * Double.pi
         let stringArea = String(area)
-        result.text = stringArea
+        result.text = "The area is:\(stringArea)"
     }
     
     

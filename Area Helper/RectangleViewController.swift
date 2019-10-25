@@ -40,7 +40,7 @@ class RectangleViewController: UIViewController {
         
         let area = lengthNumber * widthNumber
         let stringArea = String(area)
-        result.text = stringArea
+        result.text = "The area is:\(stringArea)"
     
     }
     
