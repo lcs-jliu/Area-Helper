@@ -113,23 +113,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locus-of-a-circle" translatesAutoresizingMaskIntoConstraints="NO" id="C1U-qt-4Rq">
-                                <rect key="frame" x="0.0" y="149.66666666666663" width="414" height="330"/>
+                                <rect key="frame" x="30" y="169.66666666666666" width="354" height="282.33333333333337"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="C1U-qt-4Rq" secondAttribute="height" multiplier="69:55" id="6WS-Bq-BE6"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="DUC-Jf-Ftt" firstAttribute="centerX" secondItem="waZ-EU-hDb" secondAttribute="centerX" id="0Yf-g0-6qy"/>
-                            <constraint firstItem="C1U-qt-4Rq" firstAttribute="trailing" secondItem="waZ-EU-hDb" secondAttribute="trailing" id="3eo-jn-8hN"/>
-                            <constraint firstItem="C1U-qt-4Rq" firstAttribute="top" secondItem="NNy-qJ-Wom" secondAttribute="bottom" constant="10" id="9nY-iy-mvx"/>
+                            <constraint firstItem="C1U-qt-4Rq" firstAttribute="trailing" secondItem="waZ-EU-hDb" secondAttribute="trailing" constant="-30" id="3eo-jn-8hN"/>
+                            <constraint firstItem="C1U-qt-4Rq" firstAttribute="top" secondItem="NNy-qJ-Wom" secondAttribute="bottom" constant="30" id="9nY-iy-mvx"/>
                             <constraint firstItem="NNy-qJ-Wom" firstAttribute="top" secondItem="fu0-Bz-g5e" secondAttribute="topMargin" id="L1f-IU-G91"/>
                             <constraint firstItem="Iy7-dA-Y3v" firstAttribute="bottom" secondItem="waZ-EU-hDb" secondAttribute="bottom" multiplier="4:5" id="MaI-EJ-IyJ"/>
                             <constraint firstItem="1OU-EY-usZ" firstAttribute="centerX" secondItem="waZ-EU-hDb" secondAttribute="centerX" id="NDl-Vv-zYF"/>
                             <constraint firstItem="DUC-Jf-Ftt" firstAttribute="trailing" secondItem="waZ-EU-hDb" secondAttribute="trailing" constant="-40" id="RZj-pi-UXO"/>
-                            <constraint firstItem="1OU-EY-usZ" firstAttribute="bottom" secondItem="Iy7-dA-Y3v" secondAttribute="top" constant="-10" id="YVj-rZ-OQT"/>
-                            <constraint firstItem="Iy7-dA-Y3v" firstAttribute="bottom" secondItem="DUC-Jf-Ftt" secondAttribute="top" constant="-20" id="hEO-6A-BNK"/>
-                            <constraint firstItem="C1U-qt-4Rq" firstAttribute="leading" secondItem="waZ-EU-hDb" secondAttribute="leading" id="iyC-TN-LNC"/>
-                            <constraint firstItem="waZ-EU-hDb" firstAttribute="bottom" secondItem="DUC-Jf-Ftt" secondAttribute="bottom" id="o7q-vR-WH5"/>
-                            <constraint firstItem="C1U-qt-4Rq" firstAttribute="centerX" secondItem="waZ-EU-hDb" secondAttribute="centerX" id="oMj-sc-Z6v"/>
+                            <constraint firstItem="1OU-EY-usZ" firstAttribute="bottom" secondItem="waZ-EU-hDb" secondAttribute="bottom" multiplier="7:10" id="d7O-IL-lWv"/>
+                            <constraint firstItem="DUC-Jf-Ftt" firstAttribute="top" secondItem="Iy7-dA-Y3v" secondAttribute="bottom" constant="20" id="hEO-6A-BNK"/>
+                            <constraint firstItem="C1U-qt-4Rq" firstAttribute="leading" secondItem="waZ-EU-hDb" secondAttribute="leading" constant="30" id="iyC-TN-LNC"/>
+                            <constraint firstItem="DUC-Jf-Ftt" firstAttribute="bottom" secondItem="waZ-EU-hDb" secondAttribute="bottom" id="o7q-vR-WH5"/>
                             <constraint firstItem="Iy7-dA-Y3v" firstAttribute="centerX" secondItem="waZ-EU-hDb" secondAttribute="centerX" id="qBf-nv-fnX"/>
                             <constraint firstItem="DUC-Jf-Ftt" firstAttribute="leading" secondItem="waZ-EU-hDb" secondAttribute="leading" constant="40" id="sab-gk-5fG"/>
                             <constraint firstItem="NNy-qJ-Wom" firstAttribute="centerX" secondItem="waZ-EU-hDb" secondAttribute="centerX" id="wED-mr-YVT"/>
